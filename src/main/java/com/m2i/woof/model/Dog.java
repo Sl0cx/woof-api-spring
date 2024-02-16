@@ -19,4 +19,6 @@ public class Dog {
     private String geoloc;
     @Enumerated(EnumType.STRING)
     private VaccinateStatus vaccin;
+    @ManyToOne(targetEntity = User.class)
+    private User user;
 }

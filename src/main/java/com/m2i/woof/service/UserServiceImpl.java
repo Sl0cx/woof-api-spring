@@ -12,7 +12,7 @@ import com.m2i.woof.repository.UserRepository;
 public class UserServiceImpl implements UserService {
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
-    
+
     @Autowired
     private UserRepository userRepository;
 
